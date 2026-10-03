@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "777448287653",
+    "project_id": "abstract-bonbon-380807",
+    "storage_bucket": "abstract-bonbon-380807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777448287653:android:5e5430823eb320663e8c4c",
+        "android_client_info": {
+          "package_name": "com.kayan.easyCustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777448287653-ibbslrhij9qn5idcipdnvb7f04ueprme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWzWR-71ogzslAa0MwbX08Hg7BeBh1pZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777448287653-ibbslrhij9qn5idcipdnvb7f04ueprme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

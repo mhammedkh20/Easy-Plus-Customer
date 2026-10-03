@@ -1,0 +1,115 @@
+name: easy_plus_customer
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.19+28
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  flutter_svg: ^2.0.2
+  country_pickers: ^2.0.0
+  pinput: ^2.2.21
+  stop_watch_timer: ^2.0.0
+  image_picker: ^0.8.6+4
+  # date_time_picker: ^2.1.0
+  dotted_dashed_line: ^0.0.3
+  lottie: ^2.2.0
+  google_maps_flutter: ^2.2.5
+  geocoding: ^2.1.0
+  geocoder2: ^1.4.0
+  geolocator: ^9.0.2
+  permission_handler: ^10.2.0
+  location: ^4.4.0
+  dio: ^5.1.1
+  http: ^0.13.5
+  # geolocator: ^9.0.2
+  shared_preferences: ^2.0.20
+  cached_network_image: ^3.2.3
+  octo_image: ^1.0.2
+  custom_refresh_indicator: ^2.0.1
+  flutter_clickpay_bridge: ^2.3.0
+  url_launcher: ^6.1.10
+  map_launcher: ^2.5.0+1
+  flutter_zoom_drawer: ^3.0.4+1
+  firebase_core: ^2.14.0
+  firebase_remote_config: ^4.2.3
+  cloud_firestore: ^4.8.2
+  firebase_messaging: ^14.6.4
+  flutter_local_notifications: ^15.0.0
+  tale_drawer: ^0.0.1
+  datetime_picker_formfield_new: ^2.1.0
+  package_info_plus: ^4.0.2
+  selectable_autolink_text: ^2.6.0
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_screenutil: ^5.6.1
+  flutter_launcher_icons: "^0.12.0"
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/fonts/
+    - assets/fonts/montasrat/
+    - assets/images/ic_social/
+    - assets/images/ic_drawer/
+    - assets/images/ic_service_main/
+    - assets/images/arrows/
+    - assets/images/ic_json/
+
+
+  fonts:
+    - family: ubuntu
+      fonts:
+        - asset: assets/fonts/ubuntu/Ubuntu-Regular.ttf
+        - asset: assets/fonts/ubuntu/Ubuntu-Light.ttf
+          weight: 300
+        - asset: assets/fonts/ubuntu/Ubuntu-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ubuntu/Ubuntu-Bold.ttf
+          weight: 700
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montasrat/Montserrat-Arabic Regular 400.otf
+          weight: 400
+        - asset: assets/fonts/montasrat/Montserrat-Arabic Black 900.otf
+          weight: 900
+        - asset: assets/fonts/montasrat/Montserrat-Arabic Bold 700.otf
+          weight: 700
+        - asset: assets/fonts/montasrat/Montserrat-Arabic ExtraBold 800.otf
+          weight: 800
+        - asset: assets/fonts/montasrat/Montserrat-Arabic SemiBold 600.otf
+          weight: 600
+        - asset: assets/fonts/montasrat/Montserrat-Arabic Medium 500.otf
+          weight: 500
+        - asset: assets/fonts/montasrat/Montserrat-Arabic Light 300.otf
+          weight: 300
